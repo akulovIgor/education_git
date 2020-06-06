@@ -172,4 +172,15 @@ D:\tests\education_git2\education_git>git commit -m "edit task1.1_answer"
 D:\tests\education_git>git checkout 219522a fileB.txt
 Updated 1 path from 7b60335
 
+D:\tests\education_git2\education_git>git checkout feature2
+Switched to branch 'feature2'
 
+D:\tests\education_git2\education_git>git branch
+  feature1
+* feature2
+  master
+
+D:\tests\education_git2\education_git>git branch -r
+  origin/HEAD -> origin/master
+  origin/feature1
+  origin/master
