@@ -114,6 +114,7 @@ index 259df2a..4da2c32 100644
 \ No newline at end of file
 +wefwe
 +second
+<<<<<<< HEAD
 \ No newline at end of file
 
 D:\tests\education_git>git add -A
@@ -164,3 +165,6 @@ D:\tests\education_git2\education_git>git add -A
 D:\tests\education_git2\education_git>git commit -m "edit task1.1_answer"
 [master 2a816f6] edit task1.1_answer
  1 file changed, 129 insertions(+)
+=======
+\ No newline at end of file
+>>>>>>> f8785584aab7777299f3f32af999bad20aebf83a
