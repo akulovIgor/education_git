@@ -176,4 +176,27 @@ D:\tests\education_git>git branch
 * feature1
   master
 
+D:\tests\education_git2\education_git>git checkout -b feature1 origin/feature1
+Switched to a new branch 'feature1'
+Branch 'feature1' set up to track remote branch 'feature1' from 'origin'.
 
+D:\tests\education_git2\education_git>git branch
+* feature1
+  feature2
+  master
+
+D:\tests\education_git2\education_git>git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+D:\tests\education_git2\education_git>git branch
+  feature1
+  feature2
+* master
+
+D:\tests\education_git2\education_git>git merge feature1
+Auto-merging task1.1_answer.txt
+Merge made by the 'recursive' strategy.
+ fileB.txt          | 3 ++-
+ task1.1_answer.txt | 7 +++++++
+ 2 files changed, 9 insertions(+), 1 deletion(-)
