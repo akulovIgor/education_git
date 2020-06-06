@@ -159,3 +159,8 @@ Please commit your changes or stash them before you merge.
 Aborting
 Updating 219522a..f878558
 
+D:\tests\education_git2\education_git>git add -A
+
+D:\tests\education_git2\education_git>git commit -m "edit task1.1_answer"
+[master 2a816f6] edit task1.1_answer
+ 1 file changed, 129 insertions(+)
