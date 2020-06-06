@@ -168,3 +168,8 @@ D:\tests\education_git2\education_git>git commit -m "edit task1.1_answer"
 =======
 \ No newline at end of file
 >>>>>>> f8785584aab7777299f3f32af999bad20aebf83a
+
+D:\tests\education_git>git checkout 219522a fileB.txt
+Updated 1 path from 7b60335
+
+
