@@ -181,3 +181,31 @@ D:\tests\education_git2\education_git>git branch -r
   origin/HEAD -> origin/master
   origin/feature1
   origin/master
+
+D:\tests\education_git>git revert -m 1 29292ee                                                                          Auto-merging task1.1_answer.txt                                                                                         [master 8de055e] Revert "update task1.1_answer"
+ 1 file changed, 3 insertions(+)
+
+
+
+D:\tests\education_git>git merge origin/feature2
+Already up to date.
+
+D:\tests\education_git>gitk
+
+D:\tests\education_git>git branch
+  feature1                                                                                                              * master                                                                                                                
+D:\tests\education_git>git branch -d feature1
+Deleted branch feature1 (was d8f541c).
+
+D:\tests\education_git>git branch
+* master                                                                                                                
+D:\tests\education_git>git push origin --delete feature1
+To https://github.com/akulovIgor/education_git.git
+ - [deleted]         feature1
+
+D:\tests\education_git>git branch -r
+  origin/feature2
+  origin/master
+
+
+
