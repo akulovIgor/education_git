@@ -93,3 +93,34 @@ PS D:\tests\education_git> git branch
 * feature1
   master
   
+PS D:\tests\education_git2\education_git> git checkout -b feature2
+Switched to a new branch 'feature2'
+fatal: 'origin/feature1' does not appear to be a git repository
+fatal: Could not read from remote repository.
+Please make sure you have the correct access rights
+
+PS D:\tests\education_git2\education_git> git branch
+* feature2
+  master
+
+PS D:\tests\education_git2\education_git> git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+PS D:\tests\education_git2\education_git> git branch
+  feature2
+* master
+PS D:\tests\education_git2\education_git> git checkout -b feature1
+
+PS D:\tests\education_git2\education_git> git branch
+* feature1
+  feature2
+  master
+
+PS D:\tests\education_git2\education_git> git pull origin feature1
+From https://github.com/akulovIgor/education_git
+ * branch            feature1   -> FETCH_HEAD
+Updating 22ef66a..94c9a01
+Fast-forward
+ fileB          | 3 ++-
+ task1.1_answer | 6 ++++++
+ 2 files changed, 8 insertions(+), 1 deletion(-)
