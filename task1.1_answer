@@ -134,5 +134,29 @@ Fast-forward
  fileB          | 3 ++-
  task1.1_answer | 6 ++++++
  2 files changed, 8 insertions(+), 1 deletion(-)
+PS D:\tests\education_git> git revert -m 1 972578d1868515970ea4829253ecb940e01c0765
+[master 76ad48f] Revert merge feature1
+ 1 file changed, 1 insertion(+), 8 deletions(-)
+PS D:\tests\education_git> git branch
+  feature1
+* master
+PS D:\tests\education_git> git merge origin/feature2
+Auto-merging task1.1_answer
+CONFLICT (content): Merge conflict in task1.1_answer
+Automatic merge failed; fix conflicts and then commit the result.
 
+PS D:\tests\education_git> git status
+On branch master
 
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   task1.1_answer
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\tests\education_git> git add -A
+PS D:\tests\education_git> git commit -m "Fix merge conflict"
+[master 7999edb] Fix merge conflict
