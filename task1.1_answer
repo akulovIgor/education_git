@@ -87,6 +87,16 @@ f878558 - delete fileB.txt : Sat Jun 6 15:38:06 2020 +0400 [ Акулов Иго
 219522a - add filaA and fileB : Sat Jun 6 15:33:03 2020 +0400 [ Акулов Игорь ]
 6981d73 - add task1.1_answer.txt : Sat Jun 6 15:28:00 2020 +0400 [ Акулов Игорь ]
 
+PS D:\tests\education_git2\education_git> git checkout feature2
+Switched to branch 'feature2'
+PS D:\tests\education_git2\education_git> git branch
+  feature1
+* feature2
+  master
+PS D:\tests\education_git2\education_git> git branch -r
+  origin/HEAD -> origin/master
+  origin/feature1
+  origin/master
 PS D:\tests\education_git> git checkout -b feature1
 Switched to a new branch 'feature1'
 PS D:\tests\education_git> git branch
@@ -124,3 +134,5 @@ Fast-forward
  fileB          | 3 ++-
  task1.1_answer | 6 ++++++
  2 files changed, 8 insertions(+), 1 deletion(-)
+
+
