@@ -160,3 +160,10 @@ no changes added to commit (use "git add" and/or "git commit -a")
 PS D:\tests\education_git> git add -A
 PS D:\tests\education_git> git commit -m "Fix merge conflict"
 [master 7999edb] Fix merge conflict
+
+PS D:\tests\education_git> gitk
+PS D:\tests\education_git> git branch -d feature1
+Deleted branch feature1 (was 97d4be6).
+PS D:\tests\education_git> git push origin --delete feature1
+To https://github.com/akulovIgor/education_git.git
+ - [deleted]         feature1
