@@ -124,10 +124,3 @@ Fast-forward
  fileB          | 3 ++-
  task1.1_answer | 6 ++++++
  2 files changed, 8 insertions(+), 1 deletion(-)
-
-PS D:\tests\education_git2\education_git> git merge feature1
-Updating 22ef66a..97d4be6
-Fast-forward
- fileB          |  3 ++-
- task1.1_answer | 37 +++++++++++++++++++++++++++++++++++++
- 2 files changed, 39 insertions(+), 1 deletion(-)
