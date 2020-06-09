@@ -29,3 +29,55 @@ Untracked files:
         .gitignore
 
 nothing added to commit but untracked files present (use "git add" to track)
+D:\tests\education_git2>git clone https://github.com/akulovIgor/education_git.git
+Cloning into 'education_git'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 4 (delta 0), pack-reused 0
+Receiving objects: 100% (4/4), done.
+PS D:\tests\education_git2\education_git> git lg
+cd23bde - 8 task : Tue Jun 9 11:45:21 2020 +0400 [ Акулов Игорь ]
+671471d - 6 task : Tue Jun 9 11:42:06 2020 +0400 [ Акулов Игорь ]
+7ee4b0a - begin : Tue Jun 9 11:33:28 2020 +0400 [ Акулов Игорь ]
+2eeb165 - merge feature2 : Sat Jun 6 17:44:37 2020 +0400 [ Акулов Игорь ]
+506beef - conflicts : Sat Jun 6 17:27:59 2020 +0400 [ Акулов Игорь ]
+dd44959 - umerge feature1 : Sat Jun 6 17:22:42 2020 +0400 [ Акулов Игорь ]
+8de055e - Revert "update task1.1_answer" : Sat Jun 6 17:06:05 2020 +0400 [ Акулов Игорь ]
+3597a0e - check branch : Sat Jun 6 17:02:20 2020 +0400 [ Акулов Игорь ]
+6726309 - merge feature1 : Sat Jun 6 16:54:12 2020 +0400 [ Акулов Игорь ]
+b06c734 - Merge branch 'feature1' : Sat Jun 6 16:53:16 2020 +0400 [ Акулов Игорь ]
+29292ee - update task1.1_answer : Sat Jun 6 16:51:24 2020 +0400 [ Акулов Игорь ]
+d8f541c - update fileB : Sat Jun 6 16:20:39 2020 +0400 [ Акулов Игорь ]
+cb58ff5 - restore fileB.txt : Sat Jun 6 16:02:52 2020 +0400 [ Акулов Игорь ]
+6280c4d - Merge branch 'master' of https://github.com/akulovIgor/education_git : Sat Jun 6 15:54:50 2020 +0400 [ Акулов Игорь ]
+b503511 - edit task1.1_answer : Sat Jun 6 15:45:07 2020 +0400 [ Акулов Игорь ]
+2a816f6 - edit task1.1_answer : Sat Jun 6 15:43:24 2020 +0400 [ Акулов Игорь ]
+f878558 - delete fileB.txt : Sat Jun 6 15:38:06 2020 +0400 [ Акулов Игорь ]
+219522a - add filaA and fileB : Sat Jun 6 15:33:03 2020 +0400 [ Акулов Игорь ]
+6981d73 - add task1.1_answer.txt : Sat Jun 6 15:28:00 2020 +0400 [ Акулов Игорь ]
+
+PS D:\tests\education_git> git lg
+8bc4005 - Merge branch 'master' of https://github.com/akulovIgor/education_git : Tue Jun 9 11:55:53 2020 +0400 [ Акулов Игорь ]
+b107d15 - 9 task : Tue Jun 9 11:48:58 2020 +0400 [ Акулов Игорь ]
+37d3594 - 8 task : Tue Jun 9 11:48:58 2020 +0400 [ Акулов Игорь ]
+cd23bde - 8 task : Tue Jun 9 11:45:21 2020 +0400 [ Акулов Игорь ]
+671471d - 6 task : Tue Jun 9 11:42:06 2020 +0400 [ Акулов Игорь ]
+7ee4b0a - begin : Tue Jun 9 11:33:28 2020 +0400 [ Акулов Игорь ]
+2eeb165 - merge feature2 : Sat Jun 6 17:44:37 2020 +0400 [ Акулов Игорь ]
+506beef - conflicts : Sat Jun 6 17:27:59 2020 +0400 [ Акулов Игорь ]
+dd44959 - umerge feature1 : Sat Jun 6 17:22:42 2020 +0400 [ Акулов Игорь ]
+8de055e - Revert "update task1.1_answer" : Sat Jun 6 17:06:05 2020 +0400 [ Акулов Игорь ]
+3597a0e - check branch : Sat Jun 6 17:02:20 2020 +0400 [ Акулов Игорь ]
+6726309 - merge feature1 : Sat Jun 6 16:54:12 2020 +0400 [ Акулов Игорь ]
+b06c734 - Merge branch 'feature1' : Sat Jun 6 16:53:16 2020 +0400 [ Акулов Игорь ]
+29292ee - update task1.1_answer : Sat Jun 6 16:51:24 2020 +0400 [ Акулов Игорь ]
+d8f541c - update fileB : Sat Jun 6 16:20:39 2020 +0400 [ Акулов Игорь ]
+cb58ff5 - restore fileB.txt : Sat Jun 6 16:02:52 2020 +0400 [ Акулов Игорь ]
+6280c4d - Merge branch 'master' of https://github.com/akulovIgor/education_git : Sat Jun 6 15:54:50 2020 +0400 [ Акулов Игорь ]
+b503511 - edit task1.1_answer : Sat Jun 6 15:45:07 2020 +0400 [ Акулов Игорь ]
+2a816f6 - edit task1.1_answer : Sat Jun 6 15:43:24 2020 +0400 [ Акулов Игорь ]
+f878558 - delete fileB.txt : Sat Jun 6 15:38:06 2020 +0400 [ Акулов Игорь ]
+219522a - add filaA and fileB : Sat Jun 6 15:33:03 2020 +0400 [ Акулов Игорь ]
+6981d73 - add task1.1_answer.txt : Sat Jun 6 15:28:00 2020 +0400 [ Акулов Игорь ]
+
